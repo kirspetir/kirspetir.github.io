@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORM HTML KIRSPETIR</title>
+       
+<body style="background-color:blue">
+    <center><img src="sda.jpg" width="200" height="200" alt=""/> <h1>PENDAFTARAN MEMBER TEAM KIRSPETIR MOBILE LENGEND</h1></center>
+    <p>
+        <center>SREPET MANTAPZ!</center>
+    </p>
+    </head>
+    <form method="POST" action="" target="_blank" enctype="multipart/form-data"></form>
+        <center>
+        <table>
+          <tr>
+             <td class="text">Nama </td>
+             <td>:</td>
+             <td><input type="text" name="nama_anda" placeholder="isikan nama lengkap anda" maxlenght="30" size="40"/> </td>
+         </tr>
+         <tr>
+             <td>NIK </td>
+             <td>:</td>
+             <td><input type="text" name="nik" requireds="required" ></td>
+         <tr>
+             <td>Tanggal Lahir </td>
+             <td>:</td>
+             <td><input type="datetime"> </td>
+         </tr>
+         <tr>
+             <td>Jenis Kelamin </td>
+             <td>:</td>
+             <td>
+                <input type="radio" name="gender" value="man"/> Laki-Laki
+                <input type="radio" name="gender" value="woman"/> Perempuan
+             </td>
+         </tr>
+         <tr>
+             <td>Agama </td>
+             <td>:</td>
+             <td>
+              
+                 <select name="Agama">
+                     <option value="islam">islam</option>
+                     <option value="Kristen">kristen</option>
+                     <option value="buddha">buddha</option>
+                     <option value="hindu">hindu</option>
+                 </select>
+             </td>
+         </tr>
+         <tr>
+             <td>Email </td>
+             <td>:</td>
+             <td><input type="email" name="email" placeholder="mis. email@gmail.com" maxlength="20" autocomplete="off"/></td>
+         </tr>
+         <tr>
+            <td>Role Yang Dipilih</td>
+            <td>:</td>
+            <td>
+                   <select name="Role Yang DIpilih">
+                      <option value="TANK">Tank</option>
+                      <option value="SUPPORT">Support</option>
+                      <option value="CORE">Core </option>
+                      <option value="FIGHTER">Fighter </option>
+                      <option value="MM">MM </option>
+                      <option value="HYPER">Hyper </option>
+                   </select>
+               </td>
+          <tr>
+             <td>Pas Foto</td>
+             <td>:</td>
+             <td><input type="file" name="browse" value="" width="200"/></td>
+         </tr>
+         <tr>
+            <td>Alasan</td>
+            <td>:</td>
+            <td><textarea name="Comment" columns="50" rows="8"></textarea></td>
+        </tr>
+         <tr>
+            <td>Lane Favorit</td>
+            <td>:</td>
+            <td>
+                <select name="Program Studi">
+                   <option value="jungler">jungler</option>
+                   <option value="exp lane">exp lane </option>
+                   <option value="Gold lane">Gold lane</option>
+                   <option value="Roamer">Roamer </option>
+                   <option value="Mid Lane">Mid Lane </option>
+                   
+                </select>
+            </td>
+         <tr>
+            <td>Alasan</td>
+            <td>:</td>
+            <td><textarea name="Comment" columns="50" rows="8"></textarea></td>
+        </tr>
+         
+         <tr>
+             <td>No WA </td>
+             <td>:</td>
+             <td><input type="NoWA" pattern="[0-9]{9}" placeholder="contoh:0812xxxx"></td>
+         </tr>
+         <tr>
+             <td>
+                <button type="submit" name="Kirim">Submit</button>
+                <button type="reset" name="reset">Batal</button>
+             </td>
+         </tr>
+        </table>
+    </center>
+</body>
+</html>
